@@ -1,0 +1,24 @@
+$main-color: #5836d3;
+$main-grad: linear-gradient(0.25turn, #5836d3, #8377ad);
+$main-txt-grad: linear-gradient(90deg, #a1e456 0%, #dae26c 60%, #a1e456 100%);
+
+@mixin animateTxt($color) {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: $color;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: txt 4s ease infinite;
+
+    @keyframes txt {
+        0% {
+            background-position: 0% 0%;
+        }
+        50% {
+            background-position: 210% 100%;
+        }
+        100% {
+            background-position: 0% 0%;
+        }
+    }
+}
