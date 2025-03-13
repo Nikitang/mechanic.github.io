@@ -12,7 +12,9 @@ const Layout: FC = () => {
         <div className={styles.container}>
             <div className={styles.header}>
                 <div className={styles.headerLogo}>
-                    <Link to={'/'}>GYI</Link>
+                    <Link to={'/'}>
+                        <span>YG-Auto</span>
+                    </Link>
                 </div>
 
                 <div className={styles.headerMenu}>
@@ -28,7 +30,7 @@ const Layout: FC = () => {
             <div className={styles.footer}>
                 <div className={styles.footerFirst}>
                     <div className={styles.footerLogo}>
-                        <span>GYI</span>
+                        <span>YG-Auto</span>
                     </div>
                     <div className={styles.info}>
                         <div className={styles.infoOne}>

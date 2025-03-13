@@ -36,8 +36,8 @@
 .headerLogo {
     margin-top: 4px;
 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: clamp(2rem, 3vw, 2.75rem);
+    font-family: Nunito;
+    font-size: clamp(1.25rem, 3vw, 2.75rem);
     font-weight: bolder;
     a {
         text-decoration: none;
@@ -95,6 +95,8 @@
 }
 
 .footerFirst {
+    position: relative;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,11 +114,12 @@
 
 .footerLogo {
     margin-top: 3%;
-
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Nunito;
     font-size: clamp(4rem, 7vw, 6rem);
     font-weight: bolder;
     @include animateTxt($main-txt-grad);
+
+    white-space: normal;
 }
 
 .info {

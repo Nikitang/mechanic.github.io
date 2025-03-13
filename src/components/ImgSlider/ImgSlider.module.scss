@@ -1,0 +1,29 @@
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.buttonL,
+.buttonR {
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+
+    img {
+        width: 5vw;
+    }
+}
+
+.buttonR {
+    transform: rotate(180deg);
+}
