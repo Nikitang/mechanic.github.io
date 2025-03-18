@@ -10,14 +10,6 @@
     display: flex;
     justify-content: center;
     flex: 1;
-
-    @media (max-width: 950px) {
-        margin-bottom: 50vh;
-    }
-
-    @media (max-width: 500px) {
-        margin-bottom: 25vh;
-    }
 }
 
 .header {
@@ -118,8 +110,6 @@
     font-size: clamp(4rem, 7vw, 6rem);
     font-weight: bolder;
     @include animateTxt($main-txt-grad);
-
-    white-space: normal;
 }
 
 .info {

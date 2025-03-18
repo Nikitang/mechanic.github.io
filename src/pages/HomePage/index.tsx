@@ -7,8 +7,8 @@ import styles from './HomePage.module.scss';
 import Card from '../../components/Card';
 
 import { arrayData } from '../../utils/static';
-import Dot from '../../components/Dot';
 import ImgSlider from '../../components/ImgSlider';
+import WordsSlider from '../../components/WordsSlider';
 
 // const stylesArray = [
 //     styles.dotWheel,
@@ -40,6 +40,9 @@ const HomePage: FC = () => {
                 {stylesArray.map((item) => (
                     <Dot dotStyle={item} />
                 ))} */}
+            </div>
+            <div className={styles.wordSlider}>
+                <WordsSlider />
             </div>
             <div className={styles.cards}>
                 {arrayData.map((item, i) => (

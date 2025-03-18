@@ -1,8 +1,6 @@
 @import '../../styles/variables';
 
 .main {
-    position: relative;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,65 +19,29 @@
 }
 
 .logo {
-    position: relative;
-    top: -2%;
-
     width: 55%;
     height: 50%;
 
-    margin: 5%;
+    margin-top: 3%;
+
+    @media (max-width: 600px) {
+        width: 85%;
+    }
 }
 
-.dotWheel {
-    position: absolute;
-
-    bottom: 20%;
-    left: 15%;
-}
-
-.dotDoor {
-    position: absolute;
-
-    bottom: 30%;
-    right: 47%;
-}
-
-.dotHood {
-    position: absolute;
-
-    bottom: 40%;
-    left: 20%;
-}
-
-.dotLamp {
-    position: absolute;
-
-    bottom: 38%;
-    right: 5%;
-}
-
-.dotExhaust {
-    position: absolute;
-
-    bottom: 25%;
-    right: 5%;
-}
-
-.dotGlass {
-    position: absolute;
-
-    bottom: 45%;
-    right: 35%;
+.wordSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards {
     display: flex;
     justify-content: center;
-    gap: 4%;
+    gap: 40px;
     flex-wrap: wrap;
 
-    height: 100%;
-    width: 70%;
+    padding: 40px 0;
 
-    margin-bottom: 10%;
+    width: 60%;
 }

@@ -1,0 +1,17 @@
+.slider {
+    display: flex;
+    justify-content: center;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+}
+
+.word {
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    padding: 1% 5%;
+}

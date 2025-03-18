@@ -2,13 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
 }
 
 .image {
     max-width: 80%;
     height: auto;
-    border-radius: 8px;
 }
 
 .buttonL,
@@ -20,7 +18,11 @@
     color: #fff;
 
     img {
-        width: 5vw;
+        width: 55px;
+
+        @media (max-width: 600px) {
+            width: 35px;
+        }
     }
 }
 
