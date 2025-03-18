@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mechanic.github.io/static/css/main.e32768c0.css",
-    "main.js": "/mechanic.github.io/static/js/main.65b1530f.js",
+    "main.css": "/mechanic.github.io/static/css/main.39367351.css",
+    "main.js": "/mechanic.github.io/static/js/main.326a60c7.js",
     "static/media/jeep.svg": "/mechanic.github.io/static/media/jeep.4ad3a8c6bad2811ac54081367a29e04a.svg",
     "static/media/Rubik-Light.ttf": "/mechanic.github.io/static/media/Rubik-Light.5f2ceef83281548a49ca.ttf",
     "static/media/Nunito-ExtraLightItalic.ttf": "/mechanic.github.io/static/media/Nunito-ExtraLightItalic.6de14d32fd90b77266ac.ttf",
@@ -19,11 +19,11 @@
     "static/media/arrow-left.svg": "/mechanic.github.io/static/media/arrow-left.2a35bc82bc1f1912c099a5ee0a088bf5.svg",
     "index.html": "/mechanic.github.io/index.html",
     "static/media/headlights.svg": "/mechanic.github.io/static/media/headlights.ed24614b8820bb965ea59664bf03d587.svg",
-    "main.e32768c0.css.map": "/mechanic.github.io/static/css/main.e32768c0.css.map",
-    "main.65b1530f.js.map": "/mechanic.github.io/static/js/main.65b1530f.js.map"
+    "main.39367351.css.map": "/mechanic.github.io/static/css/main.39367351.css.map",
+    "main.326a60c7.js.map": "/mechanic.github.io/static/js/main.326a60c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e32768c0.css",
-    "static/js/main.65b1530f.js"
+    "static/css/main.39367351.css",
+    "static/js/main.326a60c7.js"
   ]
 }
