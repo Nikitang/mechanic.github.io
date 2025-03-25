@@ -50,11 +50,14 @@ const Layout: FC = () => {
                     </div>
                     <div className={styles.links}>
                         <img className={styles.linksVk} src={vk} alt="ВКонтакте" />
-                        <img className={styles.linksTg} src={tg} alt="Телеграм" />
+                        <Link to={'https://t.me/n1ckngg'}>
+                            <img className={styles.linksTg} src={tg} alt="Телеграм" />
+                        </Link>
+                        <Link to={'login'}>Посмотреть логин</Link>
                     </div>
                 </div>
                 <div className={styles.footerSecond}>
-                    <span>By Герасименя</span>
+                    <span>By Герасименя - Ямало-Ненецкий автономный округ, г. Муравленко</span>
                 </div>
             </div>
         </div>

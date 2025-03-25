@@ -1,4 +1,4 @@
-import { FC, useState } from 'react';
+import { FC, useEffect, useState } from 'react';
 
 import styles from './ImgSlider.module.scss';
 
@@ -17,21 +17,16 @@ type ImagesProps = {
 const ImgSlider: FC<ImagesProps> = ({ images, titleSet }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
+    useEffect(() => {
+        titleSet(images[currentIndex]);
+    }, [currentIndex]);
+
     const goToPrevious = () => {
-        setCurrentIndex((prevIndex) => {
-            let actual = prevIndex === 0 ? images.length - 1 : prevIndex - 1;
-            titleSet(images[actual]);
-            return actual;
-        });
+        setCurrentIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
     };
 
     const goToNext = () => {
-        setCurrentIndex((prevIndex) => {
-            let actual = prevIndex === images.length - 1 ? 0 : prevIndex + 1;
-            titleSet(images[actual]);
-
-            return actual;
-        });
+        setCurrentIndex((prevIndex) => (prevIndex === images.length - 1 ? 0 : prevIndex + 1));
     };
 
     return (
