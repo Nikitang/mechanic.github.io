@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mechanic.github.io/static/css/main.76be459f.css",
-    "main.js": "/mechanic.github.io/static/js/main.222a6432.js",
+    "main.css": "/mechanic.github.io/static/css/main.c605b6f0.css",
+    "main.js": "/mechanic.github.io/static/js/main.954553b4.js",
     "static/media/jeep.svg": "/mechanic.github.io/static/media/jeep.4ad3a8c6bad2811ac54081367a29e04a.svg",
     "static/media/Rubik-Light.ttf": "/mechanic.github.io/static/media/Rubik-Light.5f2ceef83281548a49ca.ttf",
     "static/media/Nunito-ExtraLightItalic.ttf": "/mechanic.github.io/static/media/Nunito-ExtraLightItalic.6de14d32fd90b77266ac.ttf",
@@ -17,15 +17,14 @@
     "static/media/phone.svg": "/mechanic.github.io/static/media/phone.67b65d422e31c7126376426a76dfc4a9.svg",
     "static/media/eye-open.svg": "/mechanic.github.io/static/media/eye-open.192e7e65c2c2b59610586f1ad605e63a.svg",
     "static/media/vk.svg": "/mechanic.github.io/static/media/vk.c7b78dd884170b9e852bf45ec30250f9.svg",
-    "static/media/arrow-left.svg": "/mechanic.github.io/static/media/arrow-left.2a35bc82bc1f1912c099a5ee0a088bf5.svg",
     "static/media/eye-closed.svg": "/mechanic.github.io/static/media/eye-closed.4657f8c5bb38361f4af50f300dbebf31.svg",
     "index.html": "/mechanic.github.io/index.html",
     "static/media/headlights.svg": "/mechanic.github.io/static/media/headlights.ed24614b8820bb965ea59664bf03d587.svg",
-    "main.76be459f.css.map": "/mechanic.github.io/static/css/main.76be459f.css.map",
-    "main.222a6432.js.map": "/mechanic.github.io/static/js/main.222a6432.js.map"
+    "main.c605b6f0.css.map": "/mechanic.github.io/static/css/main.c605b6f0.css.map",
+    "main.954553b4.js.map": "/mechanic.github.io/static/js/main.954553b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.76be459f.css",
-    "static/js/main.222a6432.js"
+    "static/css/main.c605b6f0.css",
+    "static/js/main.954553b4.js"
   ]
 }
