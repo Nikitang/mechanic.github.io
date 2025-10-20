@@ -2,11 +2,22 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 30px;
 }
 
 .logo {
+    margin-top: 30px;
     img {
         width: 100px;
         height: 100px;
     }
+}
+
+.description {
+    margin-top: 70px;
 }

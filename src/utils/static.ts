@@ -14,17 +14,17 @@ export const arrayData = [
         id: 1,
         title: 'Двигатель',
         img: engine,
-        description: 'Описаниеgggg gggggggg ggggggggg gggggggggg',
+        description: 'Описание',
     },
     {
         id: 2,
         title: 'Тормозная система',
         img: disc,
-        description: 'Описаниеgggggggggg ggggggggg ggggggggggg ggggggggggggggg gggggggggg ',
+        description: 'Описание',
     },
-    { id: 3, title: 'Выхлоп', img: exhaust, description: 'Описание fffffffffff' },
-    { id: 4, title: 'Салон', img: window, description: 'Описание ffffffffffffff' },
-    { id: 5, title: 'Освещение', img: headlights, description: 'Описание ffffffffffffff' },
+    { id: 3, title: 'Выхлоп', img: exhaust, description: 'Описание' },
+    { id: 4, title: 'Салон', img: window, description: 'Описание' },
+    { id: 5, title: 'Освещение', img: headlights, description: 'Описание' },
     { id: 6, title: 'Детейлинг', img: paintbrush, description: 'Описание' },
 ];
 

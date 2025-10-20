@@ -1,9 +1,7 @@
 .slider {
     display: flex;
     justify-content: center;
-
     gap: 15px;
-
     flex-wrap: wrap;
 }
 
@@ -13,5 +11,12 @@
 
     border: 1px solid #e2e2e2;
     border-radius: 5px;
-    padding: 1% 5%;
+    padding: 10px 10px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+    &:hover {
+        border: 1px solid var(--main-dark-blue);
+        color: var(--main-dark-blue);
+    }
 }

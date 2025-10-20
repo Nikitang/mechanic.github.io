@@ -4,8 +4,14 @@
 body {
     margin: 0;
     font-family: Rubik;
-    width: 100%;
+    background-color: rgb(245, 240, 240);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    $aye: rgb(192, 21, 192);
+    --main-dark-green: #3a7c05;
+    --main-dark-blue: #6756a3;
 }

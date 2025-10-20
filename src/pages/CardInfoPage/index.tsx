@@ -8,13 +8,13 @@ const CardInfoPage: FC = () => {
     const linkState = location.state;
     return (
         <div className={styles.cardInfo}>
-            <div>
+            <div className={styles.title}>
                 <h1>{linkState.title}</h1>
             </div>
             <div className={styles.logo}>
                 <img src={linkState.img} alt="" />
             </div>
-            <div>
+            <div className={styles.description}>
                 <span>{linkState.description}</span>
             </div>
         </div>

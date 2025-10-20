@@ -1,35 +1,21 @@
 import { FC, useState } from 'react';
 
 import styles from './Login.module.scss';
-import { toast } from 'react-toastify';
 
-import openE from '../../assets/svg/eye-open.svg';
-import closeE from '../../assets/svg/eye-closed.svg';
+import openEye from '../../../../assets/svg/eye-open.svg';
+import closeEye from '../../../../assets/svg/eye-closed.svg';
 
-const Login: FC = () => {
+import validationForm from '../../helpers/validationForm';
+
+export const Login: FC = () => {
     const [form, setForm] = useState({ login: '', password: '' });
     const [visible, setVisible] = useState(false);
 
-    const onSubmit = () => {
-        if (!form.login || !form.password) {
-            toast.error('Заполните все поля.');
-            return;
-        }
-
-        if (form.login.length < 2) {
-            toast.error('Логин должен содержать минимум 2 символа.');
-            return;
-        }
-
-        if (form.password.length < 8) {
-            toast.error('Пароль должен содержать минимум 8 символов.');
-            return;
-        }
-
-        toast.success('Вход выполнен успешно!');
-    };
     return (
         <div className={styles.formDiv}>
+            <div className={styles.loginLogo}>
+                <span>YG-auto</span>
+            </div>
             <div className={styles.title}>Вход</div>
             <div className={styles.loginDiv}>
                 <p>Логин</p>
@@ -49,17 +35,15 @@ const Login: FC = () => {
                     maxLength={30}
                 />
                 <img
-                    src={visible ? openE : closeE}
+                    src={visible ? openEye : closeEye}
                     onClick={() => setVisible(!visible)}
                     className={styles.eye}
                 />
             </div>
             <div className={styles.forgot}>Забыли пароль?</div>
             <div className={styles.submit}>
-                <button onClick={onSubmit}>Войти</button>
+                <button onClick={() => validationForm(form)}>Войти</button>
             </div>
         </div>
     );
 };
-
-export default Login;

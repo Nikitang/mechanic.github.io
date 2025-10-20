@@ -14,9 +14,6 @@ const HomePage: FC = () => {
 
     return (
         <div className={styles.main}>
-            <div className={styles.header}>
-                <h1>{title.name}</h1>
-            </div>
             <div className={styles.logo}>
                 <ImgSlider images={imgArr} titleSet={setTitle} />
             </div>

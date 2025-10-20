@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/Layout';
 import HomePage from './pages/HomePage';
 import CardInfoPage from './pages/CardInfoPage';
-import Login from './pages/Login';
+import LoginPage from './pages/LoginPage';
 
 const App: FC = () => {
     return (
@@ -14,7 +14,7 @@ const App: FC = () => {
                 <Route path="" element={<HomePage />} />
                 <Route path="card/:id" element={<CardInfoPage />} />
             </Route>
-            <Route path="login" element={<Login />} />
+            <Route path="login" element={<LoginPage />} />
         </Routes>
     );
 };
